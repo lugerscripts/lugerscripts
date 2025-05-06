@@ -4,6 +4,7 @@ local player = Players.LocalPlayer
 local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
 gui.Name = "TradeScamUI"
 gui.ResetOnSpawn = false
+gui.DisplayOrder = 1000
 
 -- Frame principal (altura reduzida)
 local main = Instance.new("Frame", gui)
